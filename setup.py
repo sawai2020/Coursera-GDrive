@@ -8,12 +8,12 @@ with open("README.md", "r") as fh:
 setuptools.setup(
     name="coursera-GDrive",
     version=__version__,
-    author="Kaan ARI",
-    author_email="kaan.ari.tr@gmail.com",
+    author="https://github.com/sawai2020/Coursera-GDrive",
+    author_email="https://github.com/sawai2020/Coursera-GDrive",
     description="This small project is helpful for downloading Coursera courses into your Google Drive via Google Colab.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/kaanaritr/Coursera-GDrive",
+    url="https://github.com/sawai2020/Coursera-GDrive",
     license="LGPLv3",
     packages=setuptools.find_packages(),
     keywords=['coursera-dl', 'coursera','download', 'education', 'MOOCs', 'google-drive'],
@@ -26,9 +26,9 @@ setuptools.setup(
     ],
     python_requires='>=3.0',
     project_urls={
-        'Documentation':'https://github.com/kaanaritr/Coursera-GDrive',
+        'Documentation':'https://github.com/sawai2020/Coursera-GDrive',
         'Say Thanks!':'https://github.com/coursera-dl/coursera-dl',
-        'Source':'https://github.com/kaanaritr/Coursera-GDrive',
+        'Source':'https://github.com/sawai2020/Coursera-GDrive',
     },
     install_requires=[
         'coursera-dl>=0.11.0'
