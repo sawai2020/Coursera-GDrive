@@ -9,7 +9,7 @@ FINISHED_COURSES_FILE = 'finishedCourses.log'
 ENROLLED_COURSES_API = 'https://api.coursera.org/api/memberships.v1?includes=courseId,courses.v1&q=me&showHidden=true&filter=current,preEnrolled'
 ALL_COURSES_API = 'https://api.coursera.org/api/courses.v1?limit=10000'
 
-DEFAULT_GDRIVE_PATH = '/content/drive/My Drive/'
+DEFAULT_GDRIVE_PATH = '/content/drive/Shareddrives/v1 own/coursera/'
 
 DEFAULT_SAVE_FOLDER = 'COURSERA'
 
@@ -31,7 +31,7 @@ class CourseraDownloader:
 
         try:
             from google.colab import drive
-            drive.mount('/content/drive')
+            drive.mount('/content/drive/Shareddrives/v1 own/coursera')
             self._checkGoogleDrive(save_folder)
             self._inColab = True
         except ModuleNotFoundError:
